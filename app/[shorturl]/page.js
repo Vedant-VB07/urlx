@@ -16,5 +16,5 @@ export default async function Page({ params }) {
     redirect(doc.url);
   }
 
-  redirect(`${NEXT_PUBLIC_HOST}`);
+  redirect(`${process.env.NEXT_PUBLIC_HOST}`);
 }
