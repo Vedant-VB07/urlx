@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "urlX: Link Shortner",
+  title: "urlX: Link Shortener",
   description: "This web app shortens the url",
 };
 
